@@ -1,7 +1,7 @@
 # 🚀 Deploy React Portfolio to GitHub Pages
 
 ## Prerequisites
-- Git installed on your system
+- Git installed on your systems
 - GitHub account: `abhirao2901`
 - Node.js and npm installed
 
