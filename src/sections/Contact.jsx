@@ -5,20 +5,20 @@ const Contact = () => {
   const contactMethods = [
     {
       type: 'Email',
-      value: 'alex.kumar@email.com',
-      href: 'mailto:alex.kumar@email.com',
+      value: 'abhishekrao.2909@gmail.com',
+      href: 'mailto:abhishekrao.2909@gmail.com',
       description: 'Best for project inquiries and opportunities'
     },
     {
       type: 'LinkedIn',
-      value: 'linkedin.com/in/alexkumar',
-      href: 'https://linkedin.com/in/alexkumar',
+      value: 'linkedin.com/in/abhishek-rao-ui-dev',
+      href: 'https://www.linkedin.com/in/abhishek-rao-ui-dev/',
       description: 'Professional network and career updates'
     },
     {
       type: 'GitHub',
-      value: 'github.com/alexkumar',
-      href: 'https://github.com/alexkumar',
+      value: 'github.com/abhirao2901',
+      href: 'https://github.com/abhirao2901',
       description: 'Code samples and open source contributions'
     }
   ];
@@ -103,7 +103,7 @@ const Contact = () => {
                 <Button 
                   variant="primary" 
                   className="w-full"
-                  href="mailto:alex.kumar@email.com?subject=Frontend Engineer Opportunity"
+                  href="mailto:abhishekrao.2909@gmail.com?subject=Frontend Engineer Opportunity"
                 >
                   Start a Conversation
                 </Button>

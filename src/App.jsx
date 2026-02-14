@@ -66,13 +66,13 @@ function App() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Alex Kumar",
+            "name": "Abhishek Rao",
             "jobTitle": "Senior Frontend Engineer",
             "description": "Senior Frontend Engineer specializing in React.js, Shopify, and scalable web applications",
-            "url": "https://alexkumar.dev",
+            "url": "https://abhirao2901.github.io/Portfolio",
             "sameAs": [
-              "https://linkedin.com/in/alexkumar",
-              "https://github.com/alexkumar"
+              "https://www.linkedin.com/in/abhishek-rao-ui-dev/",
+              "https://github.com/abhirao2901"
             ],
             "knowsAbout": [
               "React.js",

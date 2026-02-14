@@ -1,22 +1,22 @@
 export const SEO_CONFIG = {
-  title: 'Alex Kumar - Senior Frontend Engineer | React.js & Shopify Expert',
+  title: 'Abhishek Rao - Senior Frontend Engineer | React.js & Shopify Expert',
   description: 'Senior Frontend Engineer with 4+ years building scalable React.js applications and high-performance Shopify stores. Specializing in SaaS platforms and e-commerce solutions.',
-  author: 'Alex Kumar',
+  author: 'Abhishek Rao',
   keywords: 'React Developer, Frontend Engineer, Shopify Expert, JavaScript, SaaS, E-commerce, Remote Developer',
-  url: 'https://alexkumar.dev',
+  url: 'https://abhirao2901.github.io/Portfolio',
   image: '/og-image.jpg'
 };
 
 export const SCHEMA_ORG = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Alex Kumar",
+  "name": "Abhishek Rao",
   "jobTitle": "Senior Frontend Engineer",
   "description": "Senior Frontend Engineer specializing in React.js, Shopify, and scalable web applications",
-  "url": "https://alexkumar.dev",
+  "url": "https://abhirao2901.github.io/Portfolio",
   "sameAs": [
-    "https://linkedin.com/in/alexkumar",
-    "https://github.com/alexkumar"
+    "https://www.linkedin.com/in/abhishek-rao-ui-dev/",
+    "https://github.com/abhirao2901"
   ],
   "knowsAbout": [
     "React.js",

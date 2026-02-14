@@ -1,6 +1,6 @@
 # Developer Portfolio - Production Ready
 
-A modern, performance-optimized React.js portfolio for senior frontend engineers.
+A modern, performance-optimized React.js portfolio for Abhishek Rao - Senior Frontend Engineer.
 
 ## 🚀 Quick Start
 

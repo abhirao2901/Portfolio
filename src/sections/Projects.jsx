@@ -11,7 +11,7 @@ const Projects = () => {
       solution: 'Rebuilt theme with modern Liquid patterns, implemented lazy loading, optimized images, and added advanced filtering.',
       impact: '25% conversion increase, 60% faster load times, 95+ Lighthouse score',
       tech: ['Shopify', 'Liquid', 'JavaScript', 'CSS3', 'Shopify CLI'],
-      github: 'https://github.com/yourusername/shopify-performance-store',
+      github: 'https://github.com/abhirao2901/shopify-performance-store',
       demo: 'https://store-demo.com',
       highlights: ['Advanced product filtering', 'Mobile-first checkout flow', 'A/B tested layouts']
     },
@@ -22,7 +22,7 @@ const Projects = () => {
       solution: 'Architected modular React app with lazy-loaded routes, real-time WebSocket integration, and optimized data visualization.',
       impact: '40% bundle size reduction, real-time updates, 99.9% uptime',
       tech: ['React.js', 'TypeScript', 'React Query', 'WebSockets', 'Tailwind CSS'],
-      github: 'https://github.com/yourusername/saas-dashboard',
+      github: 'https://github.com/abhirao2901/saas-dashboard',
       demo: 'https://dashboard-demo.com',
       highlights: ['Real-time analytics', 'Role-based access control', 'Export functionality']
     },
@@ -33,7 +33,7 @@ const Projects = () => {
       solution: 'Developed complete frontend with React, integrated REST APIs, implemented authentication and responsive design.',
       impact: '$2M+ platform revenue, 500+ enterprise users, 15+ integrations',
       tech: ['React.js', 'Node.js', 'REST APIs', 'JWT Auth', 'Responsive Design'],
-      github: 'https://github.com/yourusername/fullstack-app',
+      github: 'https://github.com/abhirao2901/fullstack-app',
       demo: 'https://app-demo.com',
       highlights: ['OAuth integration', 'Progressive Web App', 'Multi-tenant architecture']
     }
