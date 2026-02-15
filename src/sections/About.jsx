@@ -1,9 +1,18 @@
 import Container from '../components/Container';
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 const About = () => {
+  const [setRefCallback, isVisible] = useIntersectionObserver({ threshold: 0.14 });
+  
   return (
-    <section id="about" className="py-16 sm:py-20 lg:py-24 bg-white">
-      <Container>
+    <section 
+      id="about" 
+      ref={setRefCallback}
+      className="py-16 sm:py-20 lg:py-24 bg-white scroll-mt-24"
+      aria-label="About Abhishek Rao"
+    >
+      <div className={`transition-opacity duration-500 motion-safe:animate-fade-up ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+        <Container>
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -58,6 +67,7 @@ const About = () => {
           </div>
         </div>
       </Container>
+      </div>
     </section>
   );
 };

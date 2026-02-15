@@ -42,7 +42,36 @@ module.exports = {
       boxShadow: {
         'soft': '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',
         'medium': '0 4px 25px -5px rgba(0, 0, 0, 0.15), 0 10px 30px -5px rgba(0, 0, 0, 0.04)',
+        'elev-1': '0 6px 20px rgba(17,24,39,.08)',
+        'elev-1-hover': '0 10px 28px rgba(17,24,39,.10)'
       },
+      keyframes: {
+        'fade-up': {
+          '0%': { opacity: '0', transform: 'translateY(8px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' }
+        },
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' }
+        },
+        'press': {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(1px)' }
+        },
+        'shimmer': {
+          '0%': { backgroundPosition: '0% 50%' },
+          '100%': { backgroundPosition: '200% 50%' }
+        }
+      },
+      animation: {
+        'fade-up': 'fade-up .5s cubic-bezier(.22,1,.36,1) both',
+        'fade-in': 'fade-in .4s ease-out both',
+        'press': 'press .08s ease-in-out 1',
+        'shimmer': 'shimmer 3s linear infinite'
+      },
+      backgroundImage: {
+        'brand-gradient': 'linear-gradient(90deg,#3b82f6 0%,#2563eb 50%,#1d4ed8 100%)'
+      }
     },
   },
   plugins: [],

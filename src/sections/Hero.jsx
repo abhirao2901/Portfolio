@@ -5,7 +5,8 @@ const Hero = () => {
   return (
     <section className="relative bg-gradient-to-br from-gray-50 to-gray-100 py-20 sm:py-28 lg:py-32">
       <Container>
-        <div className="text-center">
+        <div className="relative text-center">
+          <div className="pointer-events-none absolute -inset-px rounded-2xl opacity-20 motion-safe:bg-brand-gradient motion-safe:bg-[length:200%_100%] motion-safe:animate-shimmer" />
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
             Senior Frontend Engineer
             <span className="block text-gradient">

@@ -1,8 +1,11 @@
 import Container from '../components/Container';
 import Card from '../components/Card';
 import Button from '../components/Button';
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 const Projects = () => {
+  const [setRefCallback, isVisible] = useIntersectionObserver({ threshold: 0.14 });
+  
   const projects = [
     {
       title: 'Shoppify Health Kart - High-Performance Store',
@@ -40,8 +43,14 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-16 sm:py-20 lg:py-24 bg-white">
-      <Container>
+    <section 
+      id="projects" 
+      ref={setRefCallback}
+      className="py-16 sm:py-20 lg:py-24 bg-white scroll-mt-24"
+      aria-label="Featured Projects"
+    >
+      <div className={`transition-opacity duration-500 motion-safe:animate-fade-up ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+        <Container>
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             Featured Projects
@@ -93,7 +102,8 @@ const Projects = () => {
                       {project.tech.map((tech, techIndex) => (
                         <span 
                           key={techIndex}
-                          className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full"
+                          className="px-2.5 py-1 rounded-full border border-gray-200 bg-gray-50 text-gray-700 motion-safe:opacity-0 motion-safe:animate-fade-up"
+                          style={{ animationDelay: `${techIndex * 60}ms` }}
                         >
                           {tech}
                         </span>
@@ -135,6 +145,7 @@ const Projects = () => {
           ))}
         </div>
       </Container>
+      </div>
     </section>
   );
 };
