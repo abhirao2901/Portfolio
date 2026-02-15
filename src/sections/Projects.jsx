@@ -5,15 +5,15 @@ import Button from '../components/Button';
 const Projects = () => {
   const projects = [
     {
-      title: 'High-Performance Shopify Store',
+      title: 'Shoppify Health Kart - High-Performance Store',
       category: 'E-Commerce',
-      problem: 'Legacy storefront with 4.2s load time and 12% conversion rate needed complete performance overhaul.',
-      solution: 'Rebuilt theme with modern Liquid patterns, implemented lazy loading, optimized images, and added advanced filtering.',
-      impact: '25% conversion increase, 60% faster load times, 95+ Lighthouse score',
-      tech: ['Shopify', 'Liquid', 'JavaScript', 'CSS3', 'Shopify CLI'],
-      github: 'https://github.com/abhirao2901/shopify-performance-store',
-      demo: 'https://store-demo.com',
-      highlights: ['Advanced product filtering', 'Mobile-first checkout flow', 'A/B tested layouts']
+      problem: 'Health supplement e-commerce store needed modern design, optimized performance, and better user experience for health-conscious consumers.',
+      solution: 'Built comprehensive Shopify store with custom theme, product filtering, responsive design, and optimized checkout flow for health supplements.',
+      impact: 'Modern e-commerce experience, mobile-optimized design, fast loading performance',
+      tech: ['Shopify', 'Liquid', 'JavaScript', 'CSS3', 'Responsive Design', 'E-commerce'],
+      github: 'https://github.com/abhirao2901/Shoppify-Health-Kart',
+      demo: 'https://abhirao2901.github.io/Shoppify-Health-Kart/',
+      highlights: ['Health supplement focus', 'Mobile-first design', 'Product categorization', 'Optimized checkout']
     },
     {
       title: 'React SaaS Dashboard',
